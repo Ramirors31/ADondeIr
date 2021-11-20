@@ -10,14 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ADondeIrNuevoLeon">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.ADondeIrNuevoLeon.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/SplashTheme"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
